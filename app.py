@@ -26,7 +26,7 @@ def main():
         return prediction
 
     model = load_model()
-    class_names = ["Lion", "Cheetah"]
+    class_names = ["Cheetah", "Lion"]
     
 
     file = st.file_uploader("Choose a Lion or Cheetah picture from your computer", type=["jpg", "png", "jpeg"])
